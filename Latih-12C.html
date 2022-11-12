@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Latihan if</title>
+        <script language="javascript">
+            function ditekan ()
+            {
+                var harga=parseFloat (document.isianku.kotak1.value);
+                if(harga>=100000)
+                {
+                var pajak=0.1*harga;
+                }
+                else
+                {
+                var pajak=0;
+                }
+                var total=harga+pajak
+                document.isianku.kotak2.value=pajak;
+                document.isianku.kotak3.value=total;
+            }
+        </script>
+    </head>
+
+<body>
+    <form name="isianku">
+        Total = <input type="text" name="kotak1"><br>
+        Pajak = <input type="text" name="kotak2"><br>
+        Total = <input type="text" name="kotak3"><br>
+        <br><br>
+        <input type="button" value="Hitung" onclick="ditekan ()">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

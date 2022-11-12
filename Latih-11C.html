@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Hitung Phytagoras</title>
+<script language="javascript">
+function ditekan()
+{
+var a=parseFloat(document.isianku.kotak1.value);
+var b=parseFloat(document.isianku.kotak2.value);
+var c=Math.sqrt((a*b)+(b*b));
+document.isianku.kotak3.value=c;
+}
+</script>
+</head>
+
+<body>
+<h1>Hitung Phytagoras</h1>
+<form name="isianku">
+A=<input type="text" name="kotak1"><br>
+B=<input type="text" name="kotak2"><br>
+C=<input type="text" name="kotak3"><br>
+<br><br>
+<input type="button" value="hitung" onclick="ditkean()">
+<input type="reset" value="reset"></p>
+</form>
+</body>
+</html>

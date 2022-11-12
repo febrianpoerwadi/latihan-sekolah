@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Menghitung akar dan pangkat</title>
+<script language="javascript">
+function ditekan()
+{
+var data1=parseFloat(document.isianku.kotak1.value);
+var data2=parseFloat(document.isianku.kotak2.value);
+var data3=Math.sqrt(data1);
+var data4=Math.pow(data1,data2);
+document.isianku.kotak3.value=data3;
+document.isianku.kotak4.value=data4;
+}
+</script>
+</head>
+
+<body>
+<h1>hitung akar dan Pangkat</h1>
+<form name="isianku">
+X=<input type="text" name="kotak1"><br>
+Y=<input type="text" name="kotak2"><br>
+<br>
+Akar X=<input type="text" name="kotak3"><br>
+X Pangkat Y=<input type="text" name="kotak4"><br>
+<br><br>
+<input type="button" value="hitung" onclick="ditekan()">
+<input type="reset" value="reset"></p>
+</form>
+</body>
+</html>

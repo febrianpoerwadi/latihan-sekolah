@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Coba Hitung</title>
+<script language="javascript">
+function ditekan ()
+{
+	var data1 = parseFloat (document.isianku.kotak1.value);
+	var data2 = parseFloat (document.isianku.kotak2.value);
+	var hasil = data1 + data2;
+	document.isianku.kotak3.value=hasil;
+}
+</script>
+</head>
+
+<body>
+<h1><center>MENGHITUNG PENJUMLAHAN</center></h1>
+<form name="isianku">
+Bilangan pertama=<input type="text" name="kotak1"><br>
+Bilangan Kedua=<input type="text" name="kotak2"><br>
+Hasilnya Penjumlahannya=<input type="text" name="kotak3"><br><br><br>
+	<input type="button" value="jumlahkan" onclick="ditekan()">
+	<input type="reset" value="hapus">
+</form>
+</body>
+</html>

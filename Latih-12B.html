@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Latihan if kedua</title>
+        <script language="javascript">
+            function ditekan ()
+            {
+                var angka=parseFloat (document.isianku.kotak1.value);
+                if(angka%2 == 0)
+                {
+                var hasil="Bilangan Genap";
+                }
+                else
+                {
+                var hasil="Bilangan Ganjil";
+                }
+                document.isianku.kotak2.value=hasil;
+            }
+        </script>
+    </head>
+
+<body>
+    <form name="isianku">
+        Angka = <input type="text" name="kotak1"><br>
+        Adalah = <input type="text" name="kotak2"><br>
+        <br><br>
+        <input type="button" value="Hitung" onclick="ditekan ()">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

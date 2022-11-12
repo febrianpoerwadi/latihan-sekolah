@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Latihan if</title>
+        <script language="javascript">
+            function ditekan ()
+            {
+                var nilai=parseFloat (document.isianku.kotak1.value);
+                if(nilai>=60)
+                {
+                var hasil="Lulus";
+                }
+                else
+                {
+                var hasil="Tidak Lulus";
+                }
+                document.isianku.kotak2.value=hasil;
+            }
+        </script>
+    </head>
+
+<body>
+    <form name="isianku">
+        Nilai = <input type="text" name="kotak1"><br>
+        Hasil = <input type="text" name="kotak2"><br>
+        <br><br>
+        <input type="button" value="Hitung" onclick="ditekan ()">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

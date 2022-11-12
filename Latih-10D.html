@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Menghitung Luas Segi Empat</title>
+<script language="javascript">
+function luassegiempat()
+{
+	var panjang = parseFloat (document.isianku.kotak1.value);
+	var lebar = parseFloat (document.isianku.kotak2.value);
+	var luas = panjang * lebar;
+	var keliling = 2 * (panjang + lebar);
+	document.isianku.kotak3.value = luas;
+	document.isianku.kotak4.value = keliling;
+}
+</script>
+</head>
+
+<body>
+<font face='Verdana'>
+<h1><center><b>MENGHITUNG LUAS SEGI EMPAT<b></center></h1>
+<br><br>
+<form name="isianku">
+Panjang=<input type="text" name="kotak1"><br>
+Lebar=<input type="text" name="kotak2"><br><br>
+Luas=<input type="text" name="kotak3"><br>
+Keliling=<input type="text" name="kotak4"><br><br><br>
+	<input type="button" value="Hitung" onclick="luassegiempat()">
+	<input type="reset" value="Hapus">
+</form>
+</body>
+</html>
