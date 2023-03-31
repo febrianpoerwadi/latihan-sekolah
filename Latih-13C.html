@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Latihan Case 3</title>
+<script language="javascript">
+function ditekan ()
+{
+	var angka1 = parseFloat (document.isianku.kotak1.value);
+	var angka2 = parseFloat (document.isianku.kotak2.value);
+	var proses = parseFloat (document.isianku.kotak3.value);
+	switch (proses)
+	{
+	case 1: var hasil=angka1+angka2;
+		break;
+	case 2: var hasil=angka1-angka2;
+		break;
+	case 3: var hasil=angka1*angka2;
+		break;
+	case 4: var hasil=angka1/angka2;
+		break;
+	}
+	document.isianku.kotak4.value = hasil;
+}
+</script>
+</head>
+
+<body>
+<form name = "isianku">
+	<font face='Arial'>
+	Angka 1 = <input type = "text" name = "kotak1"> <br>
+	Angka 2 = <input type = "text" name = "kotak2"> <br>
+	Proses &nbsp;	&nbsp;= <input type = "text" name = "kotak3"> <br>	
+	&nbsp;	&nbsp;	&nbsp;			
+	<b>(1=Tambah, 2=Kurang, 3=Kali, 4=Bagi)</b>
+	<br><br>
+	Hasil = <input type = "text" name = "kotak4"> <br>	
+	<br><br>
+	<input type="button" value="Hitung" onclick = "ditekan ()">
+	<input type="reset" value="Reset">
+</form>
+</body>
+</html>
+	

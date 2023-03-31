@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Latihan Case</title>
+<script language ="javascript">
+function ditekan ()
+{
+	var angka = parseFloat (document.isianku.kotak1.value);
+	switch (angka)
+	{
+	case 1:
+		var hasil="Hari Senin";
+		break;
+	case 2:
+		var hasil="Hari Selasa";
+		break;
+	case 3:
+		var hasil="Hari Rabu";
+		break;
+	case 4:
+		var hasil="Hari Kamis";
+		break;
+	case 5:
+		var hasil="Hari Jumat";
+		break;
+	case 6:
+		var hasil="Hari Sabtu";
+		break;
+	case 7:
+		var hasil="Hari Minggu";
+		break;
+	default:
+		var hasil="Masukkan angka 1-7";
+		break;
+	}
+	document.isianku.kotak2.value = hasil;
+}
+</script>
+</head>
+
+<body>
+<form name="isianku">
+	Angka = <input type="text" name = "kotak1"><br>
+	Adalah = <input type="text" name = "kotak2"><br>
+	<br><br>
+	<input type="button" value="Hitung" onclick = "ditekan ()">
+	<input type="reset" value="Reset">
+</form>
+</body>
+</html>
+		

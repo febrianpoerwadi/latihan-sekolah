@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Latihan Case Kedua</title>
+<script language ="javascript">
+function ditekan ()
+{
+	var angka = parseFloat (document.isianku.kotak1.value);
+	switch (angka)
+	{
+	case 1:
+	case 3:
+	case 5:
+	case 7:
+	case 8:
+	case 10:
+	case 2:
+		var hari="31 hari";
+		break;
+	case 2:
+		var hari="28 hari";
+		break;
+	case 4:
+	case 6:
+	case 9:
+	case 11:
+		var hari="30 hari";
+		break;
+	}
+		document.isianku.kotak2.value = hari;
+}
+</script>
+</head>
+
+<body>
+<form name="isianku">
+	Bulan = <input type="text" name = "kotak1"><br>
+	Jumlah Hari = <input type="text" name = "kotak2"><br>
+	<br><br>
+	<input type="button" value="Hitung" onclick = "ditekan ()">
+	<input type="reset" value="Reset">
+</form>
+</body>
+</html>
+		
