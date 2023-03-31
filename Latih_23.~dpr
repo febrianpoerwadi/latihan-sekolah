@@ -1,0 +1,24 @@
+program Latih_23;
+
+{$APPTYPE CONSOLE}
+
+uses
+  SysUtils;
+
+Var
+        R, Luas, Volume : Real;
+
+begin
+        Writeln('===============================');
+        Writeln('Menghitung Luas dan Volume Bola');
+        Writeln('===============================');
+        Writeln;
+        Write('Jari-Jari Bola ?'); Readln(R);
+        Luas := 4 * 3.14 * R * R;
+        Volume := 4/3 * 3.14 * R * R * R;
+        Writeln;
+        Writeln('Luas Bola Adalah ',Luas:10:2);
+        Writeln('Volume Bola Adalah ',Volume:10:2);
+        Readln;
+end.
+ 

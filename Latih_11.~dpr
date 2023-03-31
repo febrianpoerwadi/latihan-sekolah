@@ -1,0 +1,17 @@
+program Latih_11;
+
+{$APPTYPE CONSOLE}
+
+uses
+  SysUtils;
+
+begin
+  Write('Saya');
+  Write('bersekolah');
+  Write('di Bina Bakti');
+  Writeln('jalan ');
+  Writeln('Bima ');
+  Writeln('Bandung ');
+  Readln;
+end.
+ 
