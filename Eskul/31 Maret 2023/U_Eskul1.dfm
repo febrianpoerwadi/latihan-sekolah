@@ -1,0 +1,194 @@
+object Form1: TForm1
+  Left = 192
+  Top = 125
+  Width = 1052
+  Height = 565
+  Caption = 'Eskul Review'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 48
+    Top = 32
+    Width = 153
+    Height = 49
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Febrian '
+    Color = 4227327
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -37
+    Font.Name = 'Impact'
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 256
+    Top = 48
+    Width = 98
+    Height = 13
+    Caption = 'SMAK3 BINA BAKTI'
+    Color = 4259584
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 48
+    Top = 144
+    Width = 273
+    Height = 33
+    AutoSize = False
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'HoloLens MDL2 Assets'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 48
+    Top = 184
+    Width = 265
+    Height = 21
+    TabOrder = 1
+    Text = 'Dendi'
+  end
+  object Button1: TButton
+    Left = 48
+    Top = 216
+    Width = 97
+    Height = 57
+    Caption = 'PROSES'
+    TabOrder = 2
+  end
+  object CheckBox1: TCheckBox
+    Left = 40
+    Top = 296
+    Width = 97
+    Height = 17
+    Caption = 'Ayam Geprek'
+    TabOrder = 3
+  end
+  object CheckBox2: TCheckBox
+    Left = 184
+    Top = 296
+    Width = 97
+    Height = 17
+    Caption = 'Nasi Goreng'
+    TabOrder = 4
+  end
+  object RadioButton1: TRadioButton
+    Left = 40
+    Top = 352
+    Width = 97
+    Height = 17
+    Caption = 'PRIA'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+  end
+  object RadioButton2: TRadioButton
+    Left = 184
+    Top = 352
+    Width = 105
+    Height = 17
+    Caption = 'WANITA'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+  end
+  object ListBox1: TListBox
+    Left = 40
+    Top = 392
+    Width = 105
+    Height = 73
+    ItemHeight = 13
+    Items.Strings = (
+      'Bali'
+      'Japan'
+      'Korea'
+      'Lombok'
+      'Raja Ampat'
+      'Jayapura'
+      'Ambon'
+      'Labuan Bajo')
+    TabOrder = 7
+  end
+  object ComboBox1: TComboBox
+    Left = 160
+    Top = 392
+    Width = 97
+    Height = 21
+    ItemHeight = 13
+    TabOrder = 8
+    Text = 'ComboBox1'
+    Items.Strings = (
+      'Pilot'
+      'Brimob'
+      'Web Designer'
+      'Jaksa'
+      'Arsitek'
+      'Dokter'
+      'TNI '
+      'Orang Kaya')
+  end
+  object GroupBox1: TGroupBox
+    Left = 280
+    Top = 392
+    Width = 185
+    Height = 97
+    Caption = 'GroupBox1'
+    TabOrder = 9
+    object RadioButton3: TRadioButton
+      Left = 8
+      Top = 24
+      Width = 105
+      Height = 17
+      Caption = 'Menikah'
+      TabOrder = 0
+    end
+    object RadioButton4: TRadioButton
+      Left = 8
+      Top = 56
+      Width = 105
+      Height = 17
+      Caption = 'Belum Menikah'
+      TabOrder = 1
+    end
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 480
+    Top = 392
+    Width = 201
+    Height = 121
+    Caption = 'RadioGroup1'
+    Items.Strings = (
+      'X Plane 11'
+      'Grand Theft Auto V'
+      'American Truck Simulator'
+      'Microsoft Flight Simulator X'
+      'Minecraft'
+      'Euro Truck Simulator 2'
+      'Counter Strike'
+      'Car X Drift Online'
+      'Clash Of Clans')
+    TabOrder = 10
+  end
+end
