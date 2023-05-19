@@ -1,0 +1,85 @@
+object Form1: TForm1
+  Left = 280
+  Top = 176
+  Width = 928
+  Height = 480
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 64
+    Top = 48
+    Width = 45
+    Height = 38
+    Caption = 'Nilai'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -32
+    Font.Name = 'Myriad Pro Cond'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 64
+    Top = 112
+    Width = 81
+    Height = 38
+    Caption = 'Pangkat'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -32
+    Font.Name = 'Myriad Pro Cond'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 64
+    Top = 240
+    Width = 48
+    Height = 38
+    Caption = 'Hasil'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -32
+    Font.Name = 'Myriad Pro Cond'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 160
+    Top = 56
+    Width = 97
+    Height = 33
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 160
+    Top = 112
+    Width = 97
+    Height = 33
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 112
+    Top = 168
+    Width = 81
+    Height = 49
+    Caption = 'HITUNG'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Edit3: TEdit
+    Left = 152
+    Top = 240
+    Width = 97
+    Height = 33
+    TabOrder = 3
+  end
+end
