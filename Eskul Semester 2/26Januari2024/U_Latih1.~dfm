@@ -1,0 +1,404 @@
+object Form1: TForm1
+  Left = 192
+  Top = 125
+  Width = 1078
+  Height = 581
+  Caption = 'Form1'
+  Color = 15331989
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 336
+    Top = 8
+    Width = 260
+    Height = 38
+    Cursor = crHandPoint
+    Caption = 'FORM PERTAMAKU'
+    Color = clRed
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlue
+    Font.Height = -27
+    Font.Name = 'Hobo Std'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 88
+    Top = 80
+    Width = 68
+    Height = 25
+    Caption = 'Nama'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -21
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 88
+    Top = 120
+    Width = 83
+    Height = 25
+    Caption = 'Alamat'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -21
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 88
+    Top = 160
+    Width = 155
+    Height = 25
+    Caption = 'Tempat Lahir'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -21
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 88
+    Top = 200
+    Width = 160
+    Height = 25
+    Caption = 'Tanggal Lahir'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -21
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 88
+    Top = 240
+    Width = 45
+    Height = 25
+    Caption = 'NIK'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -21
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 88
+    Top = 280
+    Width = 132
+    Height = 25
+    Caption = 'No Telepon'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -21
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 88
+    Top = 320
+    Width = 72
+    Height = 25
+    Caption = 'E-Mail'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -21
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 88
+    Top = 360
+    Width = 54
+    Height = 25
+    Caption = 'Hobi'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -21
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 88
+    Top = 400
+    Width = 162
+    Height = 25
+    Caption = 'Jenis Kelamin'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -21
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 88
+    Top = 440
+    Width = 127
+    Height = 25
+    Caption = 'Kendaraan'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -21
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 280
+    Top = 80
+    Width = 265
+    Height = 26
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 280
+    Top = 120
+    Width = 265
+    Height = 26
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 280
+    Top = 160
+    Width = 265
+    Height = 26
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 280
+    Top = 200
+    Width = 265
+    Height = 26
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Edit5: TEdit
+    Left = 280
+    Top = 240
+    Width = 265
+    Height = 26
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Edit6: TEdit
+    Left = 280
+    Top = 280
+    Width = 265
+    Height = 26
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Edit7: TEdit
+    Left = 280
+    Top = 320
+    Width = 265
+    Height = 26
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Edit8: TEdit
+    Left = 280
+    Top = 360
+    Width = 265
+    Height = 26
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 7
+  end
+  object RadioButton1: TRadioButton
+    Left = 280
+    Top = 400
+    Width = 89
+    Height = 25
+    Caption = 'Pria'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 8
+  end
+  object RadioButton2: TRadioButton
+    Left = 400
+    Top = 400
+    Width = 153
+    Height = 25
+    Caption = 'Perempuan'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 9
+  end
+  object CheckBox1: TCheckBox
+    Left = 272
+    Top = 440
+    Width = 73
+    Height = 25
+    Caption = 'SEPEDA'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 10
+  end
+  object CheckBox2: TCheckBox
+    Left = 360
+    Top = 440
+    Width = 73
+    Height = 25
+    Caption = 'MOTOR'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 11
+  end
+  object CheckBox3: TCheckBox
+    Left = 448
+    Top = 440
+    Width = 73
+    Height = 25
+    Caption = 'MOBIL'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 12
+  end
+  object CheckBox4: TCheckBox
+    Left = 272
+    Top = 480
+    Width = 113
+    Height = 25
+    Caption = 'GOJEK/GRAB'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 13
+  end
+  object CheckBox5: TCheckBox
+    Left = 400
+    Top = 480
+    Width = 97
+    Height = 25
+    Caption = 'JEMPUTAN'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 14
+  end
+  object CheckBox6: TCheckBox
+    Left = 512
+    Top = 480
+    Width = 97
+    Height = 25
+    Caption = 'JALAN KAKI'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 15
+  end
+  object Button1: TButton
+    Left = 688
+    Top = 472
+    Width = 75
+    Height = 25
+    Caption = 'SIMPAN'
+    TabOrder = 16
+  end
+  object Button2: TButton
+    Left = 776
+    Top = 472
+    Width = 73
+    Height = 25
+    Caption = 'HAPUS'
+    TabOrder = 17
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 864
+    Top = 472
+    Width = 89
+    Height = 25
+    Caption = 'TUTUP'
+    TabOrder = 18
+    OnClick = Button3Click
+  end
+end
