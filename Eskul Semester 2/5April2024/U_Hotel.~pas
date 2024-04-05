@@ -1,0 +1,61 @@
+unit U_Hotel;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Label2: TLabel;
+    Edit3: TEdit;
+    Label3: TLabel;
+    Edit4: TEdit;
+    Label4: TLabel;
+    Edit5: TEdit;
+    Label5: TLabel;
+    Edit6: TEdit;
+    Label6: TLabel;
+    Edit7: TEdit;
+    Label7: TLabel;
+    Edit8: TEdit;
+    Label8: TLabel;
+    ComboBox1: TComboBox;
+    RadioButton1: TRadioButton;
+    Button1: TButton;
+    procedure Edit1Change(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Edit1Change(Sender: TObject);
+begin
+//input
+kode:=edit1.text;
+//proses
+if kode='A' then
+  jenis='Agoda'
+else if kode='B' then
+  jenis='Traveloka'
+else if kode='C' then
+  jenis='Booking.com'
+else if kode='D' then
+  jenis= 'Tiket.com'
+else
+  jenis='Lain-Lain';
+end;
+
+end.

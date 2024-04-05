@@ -1,0 +1,261 @@
+object Form1: TForm1
+  Left = 192
+  Top = 125
+  Width = 928
+  Height = 480
+  Caption = 'a'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 64
+    Top = 32
+    Width = 63
+    Height = 29
+    Caption = 'Kode'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlue
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 64
+    Top = 72
+    Width = 69
+    Height = 29
+    Caption = 'Nama'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlue
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 64
+    Top = 112
+    Width = 71
+    Height = 29
+    Caption = 'Harga'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlue
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 64
+    Top = 152
+    Width = 64
+    Height = 29
+    Caption = 'Lama'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlue
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 64
+    Top = 192
+    Width = 66
+    Height = 29
+    Caption = 'Pajak'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlue
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 64
+    Top = 232
+    Width = 81
+    Height = 29
+    Caption = 'Diskon'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlue
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 64
+    Top = 272
+    Width = 134
+    Height = 29
+    Caption = 'Total Bayar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlue
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 440
+    Top = 32
+    Width = 63
+    Height = 29
+    Caption = 'Jenis'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlue
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 216
+    Top = 32
+    Width = 89
+    Height = 33
+    AutoSize = False
+    TabOrder = 0
+    OnChange = Edit1Change
+  end
+  object Edit2: TEdit
+    Left = 520
+    Top = 32
+    Width = 193
+    Height = 33
+    AutoSize = False
+    TabOrder = 1
+    OnChange = Edit1Change
+  end
+  object Edit3: TEdit
+    Left = 216
+    Top = 72
+    Width = 289
+    Height = 33
+    AutoSize = False
+    TabOrder = 2
+    OnChange = Edit1Change
+  end
+  object Edit4: TEdit
+    Left = 216
+    Top = 112
+    Width = 113
+    Height = 33
+    AutoSize = False
+    TabOrder = 3
+    OnChange = Edit1Change
+  end
+  object Edit5: TEdit
+    Left = 216
+    Top = 152
+    Width = 113
+    Height = 33
+    AutoSize = False
+    TabOrder = 4
+    OnChange = Edit1Change
+  end
+  object Edit6: TEdit
+    Left = 216
+    Top = 192
+    Width = 113
+    Height = 33
+    AutoSize = False
+    TabOrder = 5
+    OnChange = Edit1Change
+  end
+  object Edit7: TEdit
+    Left = 216
+    Top = 232
+    Width = 113
+    Height = 33
+    AutoSize = False
+    TabOrder = 6
+    OnChange = Edit1Change
+  end
+  object Edit8: TEdit
+    Left = 216
+    Top = 272
+    Width = 113
+    Height = 33
+    AutoSize = False
+    TabOrder = 7
+    OnChange = Edit1Change
+  end
+  object ComboBox1: TComboBox
+    Left = 520
+    Top = 72
+    Width = 201
+    Height = 37
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlue
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ItemHeight = 29
+    ParentFont = False
+    TabOrder = 8
+    Text = 'Pembayaran'
+    Items.Strings = (
+      'Cash'
+      'Debit'
+      'Visa'
+      'Qris')
+  end
+  object RadioButton1: TRadioButton
+    Left = 520
+    Top = 120
+    Width = 161
+    Height = 25
+    Caption = 'Breakfast'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlue
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Button1: TButton
+    Left = 520
+    Top = 304
+    Width = 113
+    Height = 41
+    Caption = 'BAYAR'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 10
+    OnClick = Button1Click
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 520
+    Top = 168
+    Width = 233
+    Height = 113
+    Caption = 'JENIS KAMAR'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    Items.Strings = (
+      'Single Room'
+      'Double Room'
+      'Deluxe Room'
+      'Suite Room')
+    ParentFont = False
+    TabOrder = 11
+    OnClick = RadioGroup1Click
+  end
+end
