@@ -1,0 +1,7 @@
+//operator adalah penghubung antar variabel
+//operator matematika: + - * /sqr sqrt power
+//semua data di dalam editbox bersifat string/huruf
+//macam-macam type data :
+//string=huruf -> str
+//integer=bil bulat -->int
+//real=pecaham ==>float
