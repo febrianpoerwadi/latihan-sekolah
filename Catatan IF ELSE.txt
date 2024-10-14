@@ -1,0 +1,72 @@
+unit U_IF;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    Edit1: TEdit;
+    Label2: TLabel;
+    Edit2: TEdit;
+    Button1: TButton;
+    Label3: TLabel;
+    Label4: TLabel;
+    Edit3: TEdit;
+    Button2: TButton;
+    Label5: TLabel;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var n1,n2:integer;
+    ket:string;
+begin
+//input
+n1:=strtoint(edit1.Text);
+n2:=strtoint(edit2.Text);
+//proses
+if n1>n2 then
+  ket:= 'nilai 1 lebih besar dari nilai 2 '
+else
+  ket:='Data tidak sesuai';
+//output
+label3.caption := ket;
+
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+var nilai : integer;
+    grade : string;
+begin
+//input
+nilai:=strtoint(edit3.Text);
+//proses
+if nilai>=100 then
+  grade:='A'
+else if nilai>85 then
+  grade:='B'
+else if  nilai>65 then
+  grade:='C'
+else
+  grade:='D';
+//output
+label5.Caption := grade;
+end;
+
+end.
