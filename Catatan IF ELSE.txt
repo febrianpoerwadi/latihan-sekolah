@@ -39,3 +39,72 @@ label5.Caption := grade;
 end;
 
 end.
+
+
+LATIHAN = 
+unit LatihJurusan_U;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    Edit1: TEdit;
+    Button1: TButton;
+    Label2: TLabel;
+    Label3: TLabel;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var falkutas,jurusan,kode : string;
+begin
+//input
+kode:=edit1.text;
+
+//proses
+if kode='T' then
+begin
+  falkutas:='Teknik'  ;
+  jurusan:= 'Informatika';
+end
+else if kode='E' then
+begin
+  falkutas:=' Ekonomi' ;
+  jurusan:= 'Bisnis';
+  end
+else if kode='H' then
+begin
+  falkutas:=' Hukum'  ;
+  jurusan:='Hukum Bisnis';
+  end
+else if kode='B' then
+begin
+  falkutas:='Sastra' ;
+  jurusan:='Sastra Mandarin';
+  end
+else
+  falkutas:='Tidak Ada';
+//output
+label2.Caption:= falkutas;
+label3.Caption:= jurusan;
+
+end;
+
+end.
+
