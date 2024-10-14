@@ -1,3 +1,5 @@
+IF ELSE TUNGGAL :
+
 procedure TForm1.Button1Click(Sender: TObject);
 var n1,n2:integer;
     ket:string;
@@ -14,6 +16,8 @@ else
 label3.caption := ket;
 
 end;
+
+IF ELSE BERTINGKAT :
 
 procedure TForm1.Button2Click(Sender: TObject);
 var nilai : integer;
