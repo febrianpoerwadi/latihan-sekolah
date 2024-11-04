@@ -1,0 +1,22 @@
+messagedlg ('Hai Selamat Siang', mtinformation, [mbOk, mbCancel],0);
+
+messagedlg ('Apakah anda yakin mau keluar dari program?', mtconfirmation,[mbyes,mbno],0);
+
+messagedlg ('Password Salah', mtwarning,[mbok],0);
+
+messagedlg ('Tidak ditemukan data di komputer ini!, Silahkan hubungi admin',
+
+mterror,[mbok],0);
+===========================
+
+*Input Box*
+a:=inputbox('Test Program', 'Masukan nama', '');
+
+a:=inputbox('Test Program', 'Masukan nama', '');
+messagedlg ('Nama' + a + 'Tidak ditemukan data di komputer ini!, Silahkan hubungi admin', mterror,[mbok],0);
+
+var b,a :string;
+begin
+a:=inputbox('Ticket Bioskop Indah', 'Masukan Nama Film', '');
+b:=inputbox('Ticket Bioskop Indah', 'Masukan Kode Tiket', '');
+messagedlg ('Print Ticket Success', mtinformation,[mbok],0);

@@ -1,0 +1,65 @@
+unit U_Parkir;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls;
+
+type
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Edit1: TEdit;
+    RadioButton1: TRadioButton;
+    RadioButton2: TRadioButton;
+    Edit2: TEdit;
+    Label3: TLabel;
+    ComboBox1: TComboBox;
+    Button1: TButton;
+    Edit3: TEdit;
+    Label4: TLabel;
+    Label5: TLabel;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var lama,diskon,total,bayar :real;
+begin
+//input
+lama:=strtofloat(edit2.Text);
+//proses
+if radiobutton1.Checked =true then
+   total:= (1*10000)+((lama- 1)*2000)
+else if radiobutton2.Checked = true then
+  total:= (1*3000)+((lama-1)*1500)
+else
+    total:= 0   ;
+
+
+if Combobox1.ItemIndex =0 then
+  diskon:=0
+else if Combobox1.ItemIndex =1 then
+  diskon:=0.01*total
+else if Combobox1.ItemIndex =2 then
+  diskon:=0.01*total
+else
+  diskon:=0.25*total;
+
+bayar:=total - diskon ;
+//output
+edit3.Text:=floattostr(bayar);
+end;
+
+end.
